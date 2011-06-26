@@ -1,6 +1,8 @@
 ;(function ($) {
-      $.wormhole = function Wormhole() {
+      function Wormhole() {
 	  var _this = this;
 	  
       };
+      $.wormhole = new Wormhole();
+      
   })(jQuery);
